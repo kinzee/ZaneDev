@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://zanedev.top/"
 title: zanedev
 theme: paperMod
 
@@ -16,10 +16,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, GameDev, Zane]
-  author: Zane
+  title: ZaneDev
+  description: "zane's blog"
+  keywords: [Blog, GameDev, zane]
+  author: zane
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -52,9 +52,9 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    text: "ZANE"
+    # icon: /apple-touch-icon.png
+    # iconHeight: 35
 
   # profile-mode
   profileMode:
@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: =-终抵群星-=
 
   socialIcons:
     - name: x
