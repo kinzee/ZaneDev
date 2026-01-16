@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Jan 2026 23:30:26 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 10:42:36 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>弹珠技术总结(一):实时的预测瞄准</title>
+      <link>http://localhost:1313/posts/%E5%BC%B9%E7%8F%A0%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93%E4%B8%80%E5%AE%9E%E6%97%B6%E7%9A%84%E9%A2%84%E6%B5%8B%E7%9E%84%E5%87%86/</link>
+      <pubDate>Fri, 16 Jan 2026 10:42:36 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%BC%B9%E7%8F%A0%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93%E4%B8%80%E5%AE%9E%E6%97%B6%E7%9A%84%E9%A2%84%E6%B5%8B%E7%9E%84%E5%87%86/</guid>
+      <description>在unity中实现实时的物理预测瞄准</description>
+    </item>
     <item>
       <title>来自2026年的第一条讯息</title>
       <link>http://localhost:1313/posts/%E6%9D%A5%E8%87%AA2026%E5%B9%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%A1%E8%AE%AF%E6%81%AF/</link>
