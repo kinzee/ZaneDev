@@ -27,11 +27,11 @@ cover:
 ---
 ## 为什么学习Godot
 
-免费,开源,未来可期
+**免费,开源,未来可期**
 
 ### 项目需求匹配度
 
-站在个人项目的角度.完善的2d开发工具链,发布多平台一条龙,都是我决定尝试的重要考量.借助AI也可以极大地控制学习成本.
+站在个人项目的角度.完善的2d开发工具链,发布多平台一条龙,一体化轻量的特点都是我决定尝试的重要考量.借助AI也可以极大地控制学习成本.
 
 ### 其他
 
@@ -75,7 +75,7 @@ func update_score():
 
 同类对象组的操作.
 
-``` js
+``` GDScript
 func game_over():
     # 呼叫 "pipes" 组里的所有节点，执行它们的 "stop_moving" 方法
     get_tree().call_group("pipes", "stop_moving")
@@ -83,7 +83,7 @@ func game_over():
 
 看上去和unity为对象添加标签然后根据标签查找对象组比较像.实际上`Godot` `Group`的功能更加强大,除了有数量管理上的优势,一个 `Node` 可以属于 无数个 `Group`.相比于Unity先查找,再遍历的低效方式
 
-``` csharp
+``` c#
 void KillAllEnemies() {
     // 1. 查找所有带标签的对象 (性能消耗大)
     GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
@@ -112,7 +112,7 @@ Godot的`call_group`提供了一个 `广播 (Broadcast)`机制.
 如果是两个在结构上毫无关联的节点呢? 比如得分后如何通知UI进行刷新? 出于解耦,我们肯定不会向上面一样获取节点绑定信号.在 Godot 中，我们可以使用 Autoload（自动加载/单例）实现“信号总线 (Event Bus)”模式。
 这相当于 Unity 中的 public static event Action OnDeath;，但更可视化、更易于调试。
 
-```
+``` GDScript
 # GameEvents.gd
 extends Node
 
@@ -123,7 +123,7 @@ signal bird_died
 signal score_added(current_score) # 甚至可以带参数
 ```
 
-配置 *Autoload* 后`GameEvents` 这个节点会在游戏启动时自动加载，并且你可以在任何脚本里直接通过 `GameEvents` 这个全局变量访问它。同理,我还创建了`GameData`存储我们的score.
+**配置 Autoload** 后`GameEvents` 这个节点会在游戏启动时自动加载，并且你可以在任何脚本里直接通过 `GameEvents` 这个全局变量访问它。同理,我还创建了`GameData`存储我们的score.
 
 ![flappybird](/img/image_2026-01-21.10.50.37.png)
 项目地址 <https://github.com/kinzee/FlappyBird_GoDot/tree/master>
