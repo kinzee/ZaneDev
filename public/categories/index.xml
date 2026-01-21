@@ -11,10 +11,17 @@
     </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 10:42:36 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 11:09:53 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gamedev</title>
+      <title>Godot</title>
+      <link>http://localhost:1313/categories/godot/</link>
+      <pubDate>Tue, 20 Jan 2026 11:09:53 +0800</pubDate>
+      <guid>http://localhost:1313/categories/godot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GameDev</title>
       <link>http://localhost:1313/categories/gamedev/</link>
       <pubDate>Fri, 16 Jan 2026 10:42:36 +0800</pubDate>
       <guid>http://localhost:1313/categories/gamedev/</guid>
