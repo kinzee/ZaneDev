@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Jan 2026 11:09:53 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 15:36:40 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GameDev</title>
+      <link>http://localhost:1313/categories/gamedev/</link>
+      <pubDate>Mon, 26 Jan 2026 15:36:40 +0800</pubDate>
+      <guid>http://localhost:1313/categories/gamedev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>弹珠技术总结</title>
+      <link>http://localhost:1313/categories/%E5%BC%B9%E7%8F%A0%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Mon, 26 Jan 2026 15:36:40 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E5%BC%B9%E7%8F%A0%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Godot</title>
       <link>http://localhost:1313/categories/godot/</link>
@@ -21,17 +35,10 @@
       <description></description>
     </item>
     <item>
-      <title>GameDev</title>
-      <link>http://localhost:1313/categories/gamedev/</link>
+      <title>GameDev，弹珠技术总结</title>
+      <link>http://localhost:1313/categories/gamedev%E5%BC%B9%E7%8F%A0%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/</link>
       <pubDate>Fri, 16 Jan 2026 10:42:36 +0800</pubDate>
-      <guid>http://localhost:1313/categories/gamedev/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>弹珠技术总结</title>
-      <link>http://localhost:1313/categories/%E5%BC%B9%E7%8F%A0%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/</link>
-      <pubDate>Fri, 16 Jan 2026 10:42:36 +0800</pubDate>
-      <guid>http://localhost:1313/categories/%E5%BC%B9%E7%8F%A0%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/</guid>
+      <guid>http://localhost:1313/categories/gamedev%E5%BC%B9%E7%8F%A0%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/</guid>
       <description></description>
     </item>
     <item>
